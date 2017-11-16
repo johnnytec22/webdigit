@@ -1,0 +1,197 @@
+
+#services{
+    background: #FAFAFA !important;
+}
+/**header**/
+header {
+    background-image: url('../images/index-img/sade site bg dark colored.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 440px;
+    position: relative;
+}
+
+header .container #header-info {
+    color: white;
+    position: absolute;
+    top: 45%;
+    bottom: 0;
+    right: 27%;
+    left: 27%;
+}
+header .container #header-info p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+@media(max-width: 800px) and (min-width: 501px){
+    header .container #header-info {
+        right: 16%;
+        left: 16%;
+    }
+    header .container #header-info h1 {
+        font-size: 30px;
+    }
+    header .container #header-info p {
+        font-size: 17px;
+    }
+}
+header .overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+header #about_heading {
+    position: absolute;
+    top: 94%;
+    left: 30%;
+    right: 30%;
+    padding: 30px 5%;
+    border-radius: 3px;
+    background: white;
+    background-image: url('../images/index-img/webdigit solution bg white.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    box-shadow: 0 1px 2px 1px rgba(0,0,0, 0.2);
+}
+#about_heading .btn-primary {
+    border-radius: 20px !important;
+}
+@media(max-width: 987px) {
+    header #about_heading {
+        left: 20%;
+        right: 20%;
+    }
+}
+@media(max-width: 592px) {
+    header #about_heading {
+        left: 8%;
+        right: 8%;
+        padding: 20px 10px;
+    }
+    
+}
+@media(max-width: 395px) {
+    header #about_heading #pricing button{
+        margin-top: 10px;
+    }
+    header #about_heading .btn-primary {
+        border-radius: 20px !important;
+        width: 180px;
+    }
+}
+@media(max-width: 500px) {
+    header {
+        height: 280px;
+    }
+    header .container #header-info {
+        right: 0;
+        left: 0;
+    }
+    header .container #header-info h1 {
+        font-size: 26px;
+    }
+    header .container #header-info p {
+        font-size: 15px;
+        padding: 0 5px;
+    }
+
+}
+@media(max-width: 400px) {
+    header .container #header-info h1 {
+        font-size: 23px;
+    }
+    header .container #header-info {
+        top: 40%;
+    }
+}
+
+.circle-bordered {
+    display: inline-block;
+    font-size: 37px !important;
+    line-height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    text-align: center;
+}
+/*services */
+#services {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background: white;
+    
+}
+#services #services_intro {
+    font-size: 23px;
+    margin-bottom: 130px;
+}
+#services h3 {
+    font-family: Baloo;
+    color: black !important;
+    margin-top: 30px;
+}
+#services i {
+    color: dodgerblue;
+}
+#services .well {
+    position: relative;
+    background: white;
+    border: none;
+    height: 250px;
+    margin-bottom: 60px;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px 1px rgba(0,0,0, 0.1);
+}
+#services .well p {
+    font-size: 17px;
+    color: grey;
+}
+#services .well h4 {
+    font-family: Baloo;
+    margin-top: 12%;
+    color: dodgerblue;
+}
+#services .well .service_content_header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 80%;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    background: dodgerblue;
+    background-image: url('../images/index-img/webdigit solution bg white.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#services .well .circle-bordered {
+    position: absolute;
+    right: 5%;
+    top: -12%;
+    background: white;
+    box-shadow: 0 2px 3px 1px rgba(0,0,0, 0.2);
+}
+#services i.red{
+    color: orangered;
+}
+#services i.green{
+    color: #09C924;
+}
+#team i.gold{
+    color: gold;
+}
+#services i.skyblue{
+    color: lightskyblue;
+}
+#services .well .bottom_icons {
+    position: absolute;
+    right: 18px;
+    bottom: 18px;
+
+
+}
