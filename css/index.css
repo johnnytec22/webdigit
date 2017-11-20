@@ -1,4 +1,7 @@
-
+.red-bg {
+    background:orangered;
+    color: white;
+}
 #services{
     background: #FAFAFA !important;
 }
@@ -77,13 +80,14 @@ header #about_heading {
 }
 @media(max-width: 395px) {
     header #about_heading #pricing button{
-        margin-top: 10px;
+        margin-top: 7px;
     }
     header #about_heading .btn-primary {
         border-radius: 20px !important;
         width: 180px;
     }
 }
+
 @media(max-width: 500px) {
     header {
         height: 280px;
@@ -120,8 +124,8 @@ header #about_heading {
 }
 /*services */
 #services {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 180px;
+    padding-bottom: 100px;
     background: white;
     
 }
@@ -192,6 +196,18 @@ header #about_heading {
     position: absolute;
     right: 18px;
     bottom: 18px;
+}
 
-
+.focus {
+    box-shadow: 0px 15px 20px 5px rgba(0,0,0, 0.1) !important;
+    transition: box-shadow 0.5s ease-in-out;
+}
+@media(max-width: 372px) {
+    #services #about_heading #pricing button{
+        margin-top: 7px;
+    }
+    #services #about_heading .btn-primary {
+        border-radius: 20px !important;
+        width: 180px;
+    }
 }

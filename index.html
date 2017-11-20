@@ -11,8 +11,6 @@
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/animate.css">
-        <link rel="stylesheet" type="" href="css/owl.carousel.css">
-        <link rel="stylesheet" type="" href="css/owl.theme.default.css">
         <link rel="stylesheet" href="css/general.css">
         <link href="css/index.css" rel="stylesheet">
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -54,7 +52,7 @@
 
             <div class="container">
                 <div id="header-info" class="text-center" >
-                    <h1 class="animated shake">Grow Your Business Online.</h1>
+                    <h1 class="animated shake">Grow Your Business with Social Media</h1>
                     <br>
                     <p class="animated bounceIn">We are in the business of making your businesses <b>Grow</b> rapidly and stay ahead of competitors</p>
                 </div>
@@ -62,7 +60,7 @@
 
             
             <div class="row text-center" id="about_heading">
-                <a href="pages/contact.html"><button class="btn btn-primary">Make A Request</button></a>
+                <a href="#"><button data-target="#request_modal" data-toggle="modal" class="btn btn-primary red-bg">Make A Request</button></a>
                 <a id="pricing" href="pages/pricing.html"><button class="btn btn-primary">View Packages</button></a>
             </div>
             
@@ -182,12 +180,31 @@
                         
                     </div>
 
-                    <div class="row text-center" id="about_heading">
-                        <a href="pages/contact.html"><button class="btn btn-primary">Make A Request</button></a>
-                        <a href="pages/pricing.html"><button class="btn btn-primary">View Packages</button></a>
+                    <div class="row text-center" id="about_heading" style="padding: 15px;">
+                        <a href="#"><button data-target="#request_modal" data-toggle="modal" class="btn btn-primary">Make A Request</button></a>
+                        <a id="pricing" href="pages/pricing.html"><button class="btn btn-primary red-bg">View Packages</button></a>
                     </div>
                 </div>
             </section>
+
+            <!--This a modal for Request form-->
+            <div class="modal fade" id="request_modal" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title"> Request Form</h5>
+                        </div>
+                        <div class="modal-body">
+                            FORM
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary red-bg" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Send</button>                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
              
         </main><!--end of main content-->
 
@@ -201,15 +218,15 @@
                         <li><a href="https://www.none.com"><i class="fa fa-twitter-square fa-lg"></i></a></li>
                         <li><a href="https://www.none.com"><i  class="fa fa-instagram fa-lg"></i></a></li>
                     </ul>
+                    <a id="policy" href="pages/policy.html"><h5><i class="fa fa-link fa-fw"></i> PRIVACY POLICY</h5></a>
                     <p> &copy Copyright 2017 of <a href="index.html">WebDigit Solution</a> All Rights Reserved.</p>
-                    <p class="small">designed by Emecx Inc.</p>
+                    <p class="small">designed by Jovinx</p>
                 </div>
             </div>
         </footer>
 
         <script src="js/jquery-3.2.1.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/owl.carousel.js"></script>
         <script src="js/general.js"></script>
         <script src="js/index.js"></script>
     

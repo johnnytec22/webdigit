@@ -1,8 +1,22 @@
-
-
+#aboutus ul {
+    padding: 0;
+    margin: 20px 0 50px 0;
+}
+#aboutus ul li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.red-bg {
+    background:orangered;
+    color: white;
+}
+#aboutus{
+    background: #FAFAFA !important;
+}
 /**header**/
 header {
-    background-image: url('../images/about-img/about adeptal.jpg');
+    background-image: url('../images/index-img/sade site bg dark colored.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -19,8 +33,8 @@ header .container #header-info {
     left: 27%;
 }
 header .container #header-info p {
-    font-size: 17px;
-    line-height: 1.6;
+    font-size: 20px;
+    line-height: 1.5;
 }
 @media(max-width: 800px) and (min-width: 501px){
     header .container #header-info {
@@ -31,12 +45,12 @@ header .container #header-info p {
         font-size: 30px;
     }
     header .container #header-info p {
-        font-size: 15px;
+        font-size: 17px;
     }
 }
 header .overlay {
     position: absolute;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.6);
     top: 0;
     left: 0;
     right: 0;
@@ -45,25 +59,44 @@ header .overlay {
 header #about_heading {
     position: absolute;
     top: 94%;
-    left: 35%;
-    right: 35%;
-    padding: 10px 5%;
+    left: 30%;
+    right: 30%;
+    padding: 30px 5%;
     border-radius: 3px;
     background: white;
+    background-image: url('../images/index-img/webdigit solution bg white.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
     box-shadow: 0 1px 2px 1px rgba(0,0,0, 0.2);
 }
-header #about_heading h3 {
-    font-weight: bold;
-    font-size: 22px;
-    padding: 0 !important;
-    margin: 0 !important;
+#about_heading .btn-primary {
+    border-radius: 20px !important;
 }
-header #about_heading p {
-    font-size: 17px;
-    margin: 0 !important;
-    padding: 0 !important;
-    color: #09C924;
+@media(max-width: 987px) {
+    header #about_heading {
+        left: 20%;
+        right: 20%;
+    }
 }
+@media(max-width: 592px) {
+    header #about_heading {
+        left: 8%;
+        right: 8%;
+        padding: 20px 10px;
+    }
+    
+}
+@media(max-width: 395px) {
+    header #about_heading #pricing button{
+        margin-top: 7px;
+    }
+    header #about_heading .btn-primary {
+        border-radius: 20px !important;
+        width: 180px;
+    }
+}
+
 @media(max-width: 500px) {
     header {
         height: 280px;
@@ -77,7 +110,6 @@ header #about_heading p {
     }
     header .container #header-info p {
         font-size: 15px;
-        line-height: 1.6;
         padding: 0 5px;
     }
 
@@ -86,262 +118,70 @@ header #about_heading p {
     header .container #header-info h1 {
         font-size: 23px;
     }
-    header .container #header-info p {
-        font-size: 14px;
-        line-height: 1.5;
-    }
     header .container #header-info {
         top: 40%;
     }
 }
-
+section {
+    overflow: hidden;
+}
 .circle-bordered {
     display: inline-block;
-    font-size: 23px !important;
+    font-size: 37px !important;
     line-height: 70px;
     width: 70px;
     border-radius: 50%;
     text-align: center;
-    background: dodgerblue;
 }
-#vision {
-    padding: 120px 0;
+/*aboutus */
+#aboutus {
+    padding-top: 180px;
+    padding-bottom: 100px;
     background: white;
 }
 
-#vision i {
-    color: white;
-}
-#vision p {
-    font-size: 18px;
-    line-height: 1.5;
-    color: rgba(0, 0, 0, 0.8);
-}
-#vision h3, #about h3, #values h3{
-    color: black;
-    font-family: Baloo;
-    font-size: 24px;
-}
-@media(max-width: 767px) {
-    #vision #mission {
-        margin-top: 50px;
-    }
+#aboutus #about_us {
+    padding-bottom: 150px;
 }
 @media(max-width: 600px) {
-    #vision p {
-        font-size: 16px;
-        line-height: 1.5;
-    }
-    header #about_heading {
-        left: 20%;
-        right: 20%;
-    }
-    header #about_heading h3 {
-        font-size: 17px;
-    }
-    header #about_heading p {
-        font-size: 15px;
-    }
-    .circle-bordered {
-        line-height: 50px;
-        width: 50px;
+    #aboutus #about_us {
+        padding-bottom: 40px;
     }
 }
-
-/**our team section**/
-#team {
-    padding: 60px 0 40px 0;
-    background: #F5F5F5;
-    color: black;
-    position: relative;
-    box-shadow: 0px 1px 2px 1px rgba(0,0,0, 0.2) inset;
+#aboutus h3 {
+    font-family: Baloo;
+    color: black !important;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
-#team #team_heading {
-    position: absolute;
-    left: 35%;
-    right: 35%;
-    top: -33px;
-    padding: 10px 5%;
+#aboutus #why_us #activities {
+    padding: 15px 4%;
     border-radius: 3px;
     background: white;
-    font-family: Baloo;
-    box-shadow: 0 1px 2px 1px rgba(0,0,0, 0.2);
+    box-shadow: 0 2px 3px 1px rgba(0,0,0, 0.1);
 }
-#team #team_heading h3{
-    margin: 0 !important;
-}
-#team .container {
-    overflow-x: scroll;
-}
-#team ul {
-    padding: 0;
-    width: 130%;
-}
-@media(max-width: 1240px) {
-    #team ul {
-        width: 200%;
-    }
-}
-@media(max-width: 770px) {
-    #team ul {
-        width: 350%;
-    }
-}
-@media(max-width: 500px) {
-    #team ul {
-        width: 400%;
-    }
-}
-@media(max-width: 400px) {
-    #team ul {
-        width: 750%;
-    }
-}
-#team li {
-    float: left;
-    margin-right: 10px;
-    list-style: none;
-}
-#team i {
+#aboutus i.blue {
     color: dodgerblue;
-}
-#team .thumbnail {
-    height: 350px;
-    width: 270px;
-    padding: 2px;
-    border: 0;
-    box-shadow: 0 0.5px 1px 0.5px rgba(0,0,0, 0.1);
-}
-#team .thumbnail .poster {
-    position: relative;
-}
-#team .thumbnail .poster img {
-    height: 165px;
-    width: 100%;
-    border-top-right-radius: 3px;
-    border-top-left-radius: 3px;
-}
-#team .thumbnail .team_overlay {
-    position: absolute;
-    top: 0 ;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border-top-right-radius: 3px;
-    border-top-left-radius: 3px;
-    background: rgba(0, 0, 0, 0.5);
-    background: -webkit-linear-gradient(rgba(5,114,227, 0.5) 40%, rgba(5,114,227, 0.8));
-    background: -o-linear-gradient(rgba(5,114,227, 0.5) 40%, rgba(5,114,227, 0.8));
-    background: -moz-linear-gradient(rgba(5,114,227, 0.5) 40%, rgba(5,114,227, 0.8));
-    background: linear-gradient(rgba(5,114,227, 0.5) 40%, rgba(5,114,227, 0.8));
-}
-#team .thumbnail .personal_img {
-    position: relative;
-    margin: -45px auto 0!important;
-    height: 70px;
-    width: 70px;
-    border: 2px solid white;
-    background: white;
-    background-position: center;
-    background-size: contain;
-    border-radius: 50%;
-}
-#team .thumbnail p {
-    color: dodgerblue;
-}
-#team .thumbnail p.small {
-    font-size: 9px !important;
-}
-#team .thumbnail p.link, #team .thumbnail p a{
-    margin: 0;
-    padding: 0;
-}
-#team .thumbnail h4 {
-    margin: 0px;
-    margin-top: 11px;
-    font-size: 20px;
-    font-weight: bold;
-    color: rgba(0,0,0, 0.8);
-}
-#team .thumbnail h5 {
-    font-size: 16px;
-    color: gray;
-}
-#team .thumbnail .poster .team_icons {
-    position: absolute;
-    z-index: 5;
-    top: 190%;
-    left: 35%;
-    right: 35%;
 }
 
-/**our values section**/
-#values {
-    padding: 60px 0;
-    background: #F5F5F5;
-    color: black;
-    position: relative;
-    box-shadow: 0px 1px 2px 1px rgba(0,0,0, 0.2) inset;
-}
-#values #value_heading {
-    position: absolute;
-    left: 35%;
-    right: 35%;
-    top: -33px;
-    padding: 10px 5%;
-    border-radius: 3px;
-    background: white;
-    font-family: Baloo;
-    box-shadow: 0 1px 2px 1px rgba(0,0,0, 0.2);
-}
-#values #value_heading h3{
-    margin: 0 !important;
-}
-#values i, #team i.blue {
-    color: dodgerblue;
-}
-#values i.red, #team i.red{
+#aboutus i.red{
     color: orangered;
 }
-#values i.green, #team i.green{
+#aboutus i.green{
     color: #09C924;
 }
-#team i.gold{
-    color: gold;
-}
-#values i.gray{
+#aboutus i.skyblue{
     color: lightskyblue;
 }
-#values .well {
-    height: 180px;
-    padding: 20px 7px;
-    background: white;
-    font-family: Baloo;
-    border-radius: 2px;
-    border: 0;
-    box-shadow: 0 0.5px 1px 0.5px rgba(0,0,0, 0.1);
+#aboutus ul li i {
+    font-size: 14px;
 }
-#values .well p {
-    height: 100px;
-    margin: 0px;
-    padding-top: 20px;
-    padding-bottom: 5px;
-    font-size: 17px;
-    font-family: Josefin;
-}
-@media(max-width: 767px) {
-    #values #value_heading h3, #team #team_heading h3,#vision h3, #about h3, #values h3{
-        font-size: 19px;
+@media(max-width: 372px) {
+    #aboutus #about_heading #pricing button{
+        margin-top: 7px;
+    }
+    #aboutus #about_heading .btn-primary {
+        border-radius: 20px !important;
+        width: 180px;
     }
 }
-#values .well h3 {
-    margin: 0px;
-    font-size: 17px;
-    color: dodgerblue;
-}
-#values #services_intro {
-    font-size: 20px;
-    margin-bottom: 50px;
-    color: gray;
-}
-
